@@ -1,0 +1,77 @@
+/* =========================
+   LIGHT THEME (DEFAULT)
+========================= */
+
+:root{
+
+    --bg-color: #ffffff;
+    --text-color: #1e293b;
+
+    --card-bg: #ffffff;
+    --border-color: #dcdcdc;
+
+    --primary-color: #003366;
+    --secondary-bg: #f4f7f6;
+
+    --footer-bg: #ffffff;
+
+    --muted-text: #64748b;
+
+    --shadow-color: rgba(0,0,0,0.08);
+}
+
+/* =========================
+   DARK THEME
+========================= */
+
+body.dark-theme{
+
+    --bg-color: #121212;
+    --text-color: #f1f5f9;
+
+    --card-bg: #1e1e1e;
+    --border-color: #2d2d2d;
+
+    --primary-color: #4da3ff;
+    --secondary-bg: #181818;
+
+    --footer-bg: #1a1a1a;
+
+    --muted-text: #94a3b8;
+
+    --shadow-color: rgba(255,255,255,0.05);
+}
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+body{
+    background: var(--secondary-bg);
+    color: var(--text-color);
+    transition: all .3s ease;
+}
+
+/* Cards */
+.card,
+.hc-card{
+    background: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+/* Footer */
+footer{
+    background: var(--footer-bg);
+    color: var(--text-color);
+}
+
+/* Navbar */
+.navbar{
+    background: var(--card-bg);
+}
+
+/* Text */
+.text-muted{
+    color: var(--muted-text) !important;
+}

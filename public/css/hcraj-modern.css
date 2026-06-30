@@ -1,0 +1,123 @@
+:root {
+    /* Pure & Cream Family Bases */
+    --hc-bg-pure: #ffffff;
+    --hc-bg-cream: #fdfbf7;
+    --hc-bg-muted: #f7f4ed;
+    --hc-border-linen: #e8e1d5;
+    
+    /* Branding Accent Accents (Minimal Use) */
+    --hc-green-dark: #1b431c;
+    --hc-green-light: #2c5e2e;
+    --hc-gold-matte: #c49a3c;
+    
+    /* Typography Contrasts */
+    --hc-text-main: #1a241b;
+    --hc-text-muted: #5c645d;
+    --hc-text-light: #ffffff;
+}
+
+body {
+    background-color: var(--hc-bg-pure);
+    color: var(--hc-text-main);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, .display-font {
+    font-family: 'Playfair Display', serif;
+}
+
+/* MPHC Inspired Utility Top Bar */
+.hc-top-bar {
+    background-color: var(--hc-bg-cream);
+    border-bottom: 1px solid var(--hc-border-linen);
+    font-size: 12px;
+    padding: 6px 0;
+}
+.hc-top-bar a {
+    color: var(--hc-text-muted);
+    text-decoration: none;
+}
+.hc-top-bar a:hover {
+    color: var(--hc-green-dark);
+}
+
+/* Main Brand Header */
+.hc-brand-header {
+    background-color: var(--hc-bg-pure);
+    padding: 15px 0;
+    border-bottom: 3px solid var(--hc-green-dark);
+}
+
+/* MPHC Style Clean Clean Navbar */
+.hc-navbar {
+    background-color: var(--hc-green-dark) !important;
+    padding: 0;
+}
+.hc-navbar .nav-link {
+    color: rgba(255,255,255,0.9) !important;
+    padding: 12px 18px !important;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+.hc-navbar .nav-link:hover, .hc-navbar .nav-item.active .nav-link {
+    background-color: var(--hc-green-light);
+    color: #fff !important;
+}
+
+/* MPHC Inspired Sidebar Tree View Menu */
+.hc-sidebar-card {
+    background-color: var(--hc-bg-cream);
+    border: 1px solid var(--hc-border-linen);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.hc-sidebar-title {
+    background-color: var(--hc-green-light);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 3px 3px 0 0;
+    letter-spacing: 0.5px;
+}
+.hc-sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.hc-sidebar-item {
+    border-bottom: 1px solid var(--hc-border-linen);
+}
+.hc-sidebar-item:last-child {
+    border-bottom: none;
+}
+.hc-sidebar-link {
+    display: block;
+    padding: 10px 15px;
+    color: var(--hc-text-main);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+.hc-sidebar-link:hover {
+    background-color: var(--hc-bg-muted);
+    color: var(--hc-green-dark);
+    padding-left: 20px;
+}
+
+/* Minimal Footer Layout */
+.hc-footer {
+    background-color: var(--hc-bg-cream);
+    border-top: 1px solid var(--hc-border-linen);
+    color: var(--hc-text-muted);
+    font-size: 13px;
+}
+.hc-footer-bottom {
+    background-color: var(--hc-green-dark);
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+}
