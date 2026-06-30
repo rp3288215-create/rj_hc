@@ -702,7 +702,7 @@
                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-3 pb-2 border-bottom">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fas fa-bell" style="color: var(--hc-blue);"></i>
-                            <h4 class="hc-panel-title">Latest Updates</h4>
+                            <h4 class="hc-panel-title">Latest Updates11111</h4>
                         </div>
                         <ul class="nav nav-pills hc-tab-pills" id="latestUpdatesTabs" role="tablist">
                             <li class="nav-item" role="presentation">
